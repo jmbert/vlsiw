@@ -1,0 +1,4 @@
+Instruction: 44 bits
+	[4 bits for Predicate]
+	[8 bits for Opcode]
+	[32 Format-Dependant bits]

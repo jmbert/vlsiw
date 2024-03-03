@@ -1,0 +1,20 @@
+Instruction Types:
+	Memory
+	Integer ALU
+	Branch
+	Reserved
+	Reserved
+	Reserved
+	Reserved
+	Reserved
+
+A Batch is 256 bits, made up of 5 Instructions and metadata:
+	Template: 36 bits
+		3-bit Format * 5: 15 bits
+		1 Stop bit
+		20 Reserved bits
+	5 Instructions (44 bits each) for the formats
+
+Undefined Formats:
+	Formats with more than one branch
+	Formats with any reserved formats

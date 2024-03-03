@@ -1,0 +1,3 @@
+
+Each functional unit can process 1 bundle:
+	Must have an integer ALU, and a load/store module

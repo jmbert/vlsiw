@@ -1,0 +1,5 @@
+
+A batch is fetched from memory.
+If it has the stop bit set, then pause fetching until all functional units are free.
+Otherwise, assign it to the first functional unit accepting batches.
+
